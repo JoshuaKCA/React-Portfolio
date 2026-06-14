@@ -4,7 +4,7 @@ A responsive personal portfolio website built with **React.js** and **Vite**, de
 
 ## 🔗 Live Demo
 
-> _Coming soon — to be deployed on Vercel/Netlify_
+[> _Coming soon — to be deployed on Vercel/Netlify_](https://joshuakca.github.io/React-Portfolio/)
 
 ---
 

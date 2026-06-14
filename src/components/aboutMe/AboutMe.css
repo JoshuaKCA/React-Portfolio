@@ -1,0 +1,12 @@
+.bold-name {
+  font-weight: 650;
+  color: white;
+}
+
+.aboutme-text {
+  color: lightgray;
+}
+
+.aboutme-container {
+  text-align: justify;
+}

@@ -1,0 +1,72 @@
+.bento-container {
+  display: grid;
+  /* Creates 3 equal columns. Left items take 2, Right items take 1. */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+}
+
+.bento-card {
+  background: rgba(17, 12, 28, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(233, 69, 245, 0.15);
+  border-radius: 24px;
+  padding: 1.75rem;
+  color: white;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(233, 69, 245, 0.3);
+}
+
+/* --- GRID PLACEMENT --- */
+
+/* Profile spans all 3 columns at the top */
+.profile-segment {
+  grid-column: 1 / -1;
+}
+
+/* Left Side Items: Span 2 out of 3 columns */
+.about-segment,
+.tech-segment,
+.projects-segment {
+  grid-column: span 2;
+}
+
+/* Right Side Items: Span 1 out of 3 columns */
+.experience-segment,
+.connect-segment {
+  grid-column: span 1;
+}
+
+/* Make the Experience card tall enough to sit neatly next to About and Tech */
+.experience-segment {
+  grid-row: span 2;
+}
+
+/* --- MOBILE LAYOUT --- */
+/* Reminder: If your window is narrower than 900px, this kicks in! */
+@media (max-width: 900px) {
+  .bento-container {
+    grid-template-columns: 1fr; /* Forces a single column */
+  }
+
+  /* Resets all grid spans so they stack cleanly on small screens */
+  .profile-segment,
+  .about-segment,
+  .experience-segment,
+  .tech-segment,
+  .projects-segment,
+  .connect-segment {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}

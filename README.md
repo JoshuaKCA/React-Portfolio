@@ -1,5 +1,3 @@
-<img width="2542" height="1261" alt="image" src="https://github.com/user-attachments/assets/e4dad4d3-cc10-408c-a320-3b3c3e5d3617" /># Joshua Kyle Arcilla — Personal Portfolio
-
 A responsive personal portfolio website built with **React.js** and **Vite**, designed to showcase my skills, certifications, and projects as an aspiring Software Engineer.
 
 ---
@@ -12,7 +10,7 @@ A responsive personal portfolio website built with **React.js** and **Vite**, de
 
 ## 📸 Preview
 
-![Portfolio Preview](src/assets/preview.jpg)
+<img width="2542" height="1261" alt="image" src="https://github.com/user-attachments/assets/e4dad4d3-cc10-408c-a320-3b3c3e5d3617" /># Joshua Kyle Arcilla — Personal Portfolio
 
 ---
 

@@ -1,5 +1,5 @@
 import FloatingLines from "./components/background/FloatingLines";
-import BentoGrid from "./components/grid/gridLayout";
+import BentoGrid from "./components/grid/GridLayout";
 import "./App.css";
 
 function App() {

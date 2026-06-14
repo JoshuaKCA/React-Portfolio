@@ -1,0 +1,39 @@
+.projects-header {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-pill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(233, 69, 245, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.project-pill:hover {
+  background: rgba(192, 132, 252, 0.1);
+  border-color: rgba(192, 132, 252, 0.5);
+  transform: translateX(4px);
+}
+
+.project-pill-name {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.project-pill-type {
+  color: rgba(192, 132, 252, 0.8);
+  font-size: 11px;
+}

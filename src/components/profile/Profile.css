@@ -64,7 +64,7 @@
 
 .github-btn,
 .linkedin-btn,
-.email-btn {
+.emailer-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@
 
 .github-btn:hover,
 .linkedin-btn:hover,
-.email-btn:hover {
+.emailer-btn:hover {
   color: black;
   background: white;
 }

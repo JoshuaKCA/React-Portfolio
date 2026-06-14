@@ -1,7 +1,9 @@
 import Profile from "../profile/Profile";
 import AboutMe from "../aboutMe/AboutMe";
 import TechStack from "../techStack/TechStack";
-import Certificates from "../certifiations/Certificates";
+import Certificates from "../certifications/Certificates";
+import Projects from "../FeaturedProjects/Projects";
+import Connect from "../connect/connect";
 import "./GridLayout.css";
 
 export default function BentoGrid() {
@@ -29,12 +31,12 @@ export default function BentoGrid() {
 
       {/* Spans 2 columns (left side) */}
       <div className="bento-card projects-segment">
-        <h3>Featured Projects</h3>
+        <Projects />
       </div>
 
       {/* Spans 1 column (right side) */}
       <div className="bento-card connect-segment">
-        <h3>Connect Matrix</h3>
+        <Connect />
       </div>
     </div>
   );

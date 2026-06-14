@@ -9,4 +9,6 @@
 
 .aboutme-container {
   text-align: justify;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,79 @@
+.connect-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 12px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.connect-header {
+  font-size: 24px;
+  margin: 0;
+}
+
+.connect-email {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.email-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(192, 132, 252, 0.4);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.email-btn:hover {
+  background: rgba(192, 132, 252, 0.15);
+  border-color: rgba(192, 132, 252, 0.8);
+  color: white;
+}
+
+.social-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(192, 132, 252, 0.3);
+  background: rgba(192, 132, 252, 0.06);
+  filter: invert(1) sepia(1) saturate(3) hue-rotate(220deg);
+  transition: all 0.2s ease;
+}
+
+.social-icon-btn:hover {
+  background: rgba(192, 132, 252, 0.2);
+  border-color: rgba(192, 132, 252, 0.7);
+  transform: translateY(-2px);
+}

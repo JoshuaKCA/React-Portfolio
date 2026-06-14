@@ -14,7 +14,13 @@ export default function AboutMe() {
         Homes, where I focused on fixing hardware and software problems, keeping
         systems running smoothly, and auditing asset databases. My academic work
         involves testing software performance, managing databases, and building
-        full-stack web environments.
+        full-stack web environments. A major highlight of my academic journey
+        was winning 2nd Runner Up in the 10th Huawei ICT National Competition
+        (Computing Track). I am enthusiastically taking courses to pick up new
+        programming languages and frameworks outside of my current stack. I love
+        the process of learning, and I am completely dedicated to continuously
+        growing my technical skillset to become a versatile, full-fledged
+        software engineer.
       </p>
     </div>
   );

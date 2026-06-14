@@ -55,7 +55,7 @@ export default function Profile() {
             href={gmailWebComposeUrl}
             target="_blank"
             rel="noopener norefferer"
-            className="email-btn"
+            className="emailer-btn"
           >
             <img
               src="https://static.vecteezy.com/system/resources/previews/022/613/021/non_2x/google-mail-gmail-icon-logo-symbol-free-png.png"

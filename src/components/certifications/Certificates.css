@@ -5,10 +5,6 @@
   cursor: pointer;
 }
 
-.cert-box h6 {
-  margin-top: -10px;
-}
-
 .cred-btn {
   display: inline-block;
   border: 1px solid rgba(192, 132, 252, 0.5);

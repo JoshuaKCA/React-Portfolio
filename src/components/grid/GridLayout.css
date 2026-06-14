@@ -53,6 +53,12 @@
   justify-content: center;
 }
 
+.footer {
+  align-items: center;
+  color: white;
+  justify-items: center;
+}
+
 @media (max-width: 900px) {
   .bento-container {
     grid-template-columns: 1fr;
